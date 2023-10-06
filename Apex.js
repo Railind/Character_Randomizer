@@ -15,22 +15,22 @@ function LegendPicker() {
 
 
     if (chosen === 'Pathfinder') {
-        message = 'Woohoo friends, time to swoop in with Pathfinder!'
+        message = 'Pathy Message'
     }
     if (chosen === 'Valkyrie') {
-        message = 'Ladies and gentlmen this is your Captain speaking, time to own the skys with Valkyrie'
+        message = 'Valk Message'
     }
     if (chosen === 'Wattson') {
-        message = "I'm Wattson and I am ecstatic to be joining the fight!"
+        message = "Watty Message"
     }
     if (chosen === 'Ballistic') {
-        message = "Let Ballistic show you how a real legend fights."
+        message = "Bally Message"
     }
     if (chosen === 'Ashe') {
-        message = "I'm Ashe and I'll make you go woof woof bark bark."
+        message = "Ashy Message"
     }
     if (chosen === 'Vantage') {
-        message = "Vantage is getting a new angle at Echoe's location, ECHOLOCATION, GET IT???"
+        message = "Vanty Message"
     }
     console.log(message);
 
