@@ -11,13 +11,16 @@ characterDropdown.addEventListener('change', function () {
 
     // Create a new div element
     const newDiv = document.createElement('div');
-    newDiv.className = `${selectedCharacter}`; // Add a class if needed
+    newDiv.className = `${selectedCharacter}`;
+    newDiv.style.maxHeight = "100px"// Add a class if needed
 
     console.log('NEW DIV', newDiv.className)
 
     // Create a new image element
     const newImage = document.createElement('img');
-    newImage.src = `images/${selectedCharacter}.png`; // Set the image source
+    newImage.src = `images/${selectedCharacter}.png`;
+    newImage.style.maxHeight = "100px"
+    newImage.style.maxWidth = "100px" // Set the image source
     console.log('IMAGE', newImage.src)
     // Append the image to the div
     newDiv.appendChild(newImage);

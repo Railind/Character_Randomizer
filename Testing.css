@@ -1,0 +1,8 @@
+:root {
+    max-width: 1700px;
+}
+
+#gridContainer {
+    display: inline-flex;
+    justify-content: center;
+}
