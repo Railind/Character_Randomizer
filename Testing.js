@@ -28,9 +28,18 @@ characterDropdown.addEventListener('change', function () {
         // Append the image to the div
         newDiv.appendChild(newImage);
 
+        const remove = document.createElement('button')
+        remove.innerText = "X"
+        remove.style.background = "none"
+        remove.style.borderRadius = "5px"
+        remove.style.border = "grey 1px solid"
+
+        newDiv.appendChild(remove)
+
         // Append the div to the grid container
         gridContainer.appendChild(newDiv);
         currentChars.push(selectedCharacter)
+        // localStorage.setItem()
     }
 });
 
