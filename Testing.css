@@ -1,5 +1,25 @@
 :root {
     max-width: 1700px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#legendMessage {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#legendImage {
+    align-items: center;
+    justify-content: center;
+    display: flex
 }
 
 #gridContainer {

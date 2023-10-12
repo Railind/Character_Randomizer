@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="Testing.css">
+    <!-- <link rel="stylesheet" href="./dist/output.css"> -->
 </head>
 
 <body>
-    <button id="characterAdder"></button>
+    <button id="startButton"></button>
+    <button onclick="LegendPicker()">Pick Random Legend</button>
     <select id="characterDropdown" placeholder="">
         <option disabled selected>Select a Character</option>
         <option value="ballistic">Ballistic</option>
@@ -38,9 +40,12 @@
         <!-- Add more options as needed -->
     </select>
 
-    <div id="gridContainer">
+    <div id="gridContainer" class="flex flex-row shadow-md">
         <!-- Your grid elements will be dynamically added here -->
     </div>
+    <div id=""></div>
+    <p id="legendMessage" class="bg-sky-500 hover:bg-sky-700"></p>
+    <div id="legendImage"></div>
     <script src="/Testing.js"></script>
 </body>
 
